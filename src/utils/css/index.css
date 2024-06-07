@@ -1,0 +1,23 @@
+/* Cores */
+:root {
+  --azul-escuro: #212752;
+  --azul-claro: #22ADE4;
+  --branco: #fff;
+  --preto: #000;
+
+}
+
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background: radial-gradient(circle at center, var(--azul-claro), var(--azul-escuro));
+  font-family: "Metrophobic", sans-serif;
+  color: var(--branco);
+}
+
+main {
+  min-height: 92vh;
+  align-content: center;
+}

@@ -1,0 +1,50 @@
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-content: flex-end;
+    margin: 2rem 1rem 0 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer div,
+ul {
+    display: flex;
+    align-items: center;
+}
+
+footer div address {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--branco);
+    position: relative;
+    font-size: 0.8rem;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+
+footer p {
+    text-decoration: none;
+    color: var(--branco);
+    padding: 0.2rem;
+    font-size: 0.8rem;
+}
+
+footer img {
+    width: 2.5rem;
+}
+
+.footer__social_media {
+    width: 1.5rem;
+    padding: 0 1rem 0 1rem;
+}

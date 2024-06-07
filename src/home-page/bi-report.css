@@ -1,0 +1,70 @@
+.bi__report__main{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+.bi__report{
+    aspect-ratio: 16 / 9;
+    margin: 3rem;
+    width: 80%;
+    overflow: hidden;
+    max-height: 85vh;
+    border: 1rem solid var(--branco);
+    border-radius: 1rem;
+}
+
+
+.bi__report iframe{
+    background-color: transparent;
+    width: 100%;
+    min-height: 95vh;
+    margin-top: -1%;
+}
+
+
+.bi__report__div{
+    padding-top: 25rem;
+}
+
+.bi__report__div h1{
+    font-size: 4rem;
+    padding-bottom: 10rem;
+}
+
+.bi__report__div p{
+    font-size: 1.3rem;
+    width: 80%;
+}
+
+.bi_button{
+    background-color: transparent;
+    width: 100%;
+    text-align: center;
+}
+
+.bi_button select{
+    border: 0.15rem solid var(--branco);
+    border-radius: 0.25rem;
+    font-family: "Metrophobic", sans-serif;
+    font-size: 1.2rem;
+    color: var(--branco);
+    cursor: pointer;
+    width: 20%;
+    padding: 1rem;
+    
+}
+
+.bi_button select option{
+    color: var(--azul-escuro);
+    padding: 1rem;   
+}
+
+
+.bi_button select:focus{
+    outline: None;  
+}
+
+
+
+
