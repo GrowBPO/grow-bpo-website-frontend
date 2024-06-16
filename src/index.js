@@ -13,11 +13,7 @@ import HomePage from './home-page/home-page';
 import RedefinePassword from './reset-password/redefine-password/page-redefine-password';
 import ResetPassword from './reset-password/reset-password/page-reset-password';
 import { ToastContainer } from 'react-toastify';
-// import { CompanyProvider } from './header/button-company';
 import UseRouteLogout from './utils/router-logout';
-
-
-
 
 
 const router = createBrowserRouter([

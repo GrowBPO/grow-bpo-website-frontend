@@ -2,7 +2,6 @@ import { useState, useEffect } from "react";
 import { useNavigate, useParams } from 'react-router-dom';
 import client from "../../utils/api-config";
 import { toast } from 'react-toastify';
-import useAuth from "../../utils/check-auth";
 
 
 const useResetPassword = () => {
