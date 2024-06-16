@@ -12,14 +12,6 @@ const useResetPassword = () => {
     const [newPassword, setNewPassword] = useState('');
     const [confirmPassword, setConfirmPassword] = useState('');
     const navigate = useNavigate();
-    const { firstLogin } = useAuth();
-
-    useEffect(() => {
-        if (firstLogin !== true) {
-            navigate('/');
-        }
-    }, [firstLogin, navigate]);
-
 
     
     const submitPassword = async (e) => {
