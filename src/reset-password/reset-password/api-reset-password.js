@@ -35,7 +35,7 @@ const useResetPassword = () => {
                 toast.success("Senha alterada com sucesso!")
                 setTimeout(function () {
                     navigate('/login')
-                }, 8000);
+                }, 1000);
             }
         } catch (error) {
             toast.dismiss();

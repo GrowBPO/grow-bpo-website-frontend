@@ -1,6 +1,7 @@
 .bi__report__main{
     display: flex;
     align-items: center;
+    height: 100vh;
 }
 
 .bi__report{
@@ -19,6 +20,21 @@
     width: 100%;
     min-height: 95vh;
     margin-top: -1%;
+}
+
+
+.bi__report__div{
+    padding-top: 25rem;
+}
+
+.bi__report__div h1{
+    font-size: 4rem;
+    padding-bottom: 10rem;
+}
+
+.bi__report__div p{
+    font-size: 1.3rem;
+    width: 80%;
 }
 
 .bi_button{
