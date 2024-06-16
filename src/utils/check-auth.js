@@ -22,9 +22,9 @@ const useAuth = () => {
     // Busca os dados do usuário de uma API determinando se é o primeiro login e redirecionando para a página adequada.
     useEffect(() => {
         const fecthUser = async () => {
-            const res = await client.get("/api/auth/user/check");
+            const res = await client.get("auth/user/check");
             if (res.data.auth === 'true') {
-                const response = await client.get("api/auth/user");
+                const response = await client.get("auth/user");
                 const first_login = response.data.user.first_login;
                 setFirstLogin(first_login);
                 setCurrentUser(true)
