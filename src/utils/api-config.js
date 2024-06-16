@@ -5,7 +5,7 @@ import axios from "axios";
  * Configura o CSRF (Cross-Site Request Forgery) para segurança em aplicativos da web.
  */
 const client = axios.create({
-    baseURL: "https://growbpo.com.br/api",
+    baseURL: "http://127.0.0.1:8000",
     xsrfCookieName: "csrftoken",
     xsrfHeaderName: "X-CSRFToken",
     withCredentials: true

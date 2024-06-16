@@ -46,13 +46,6 @@ function BiReport() {
             ></iframe>
           </div>
         )}
-        {!selectedCompanyLink && (
-          <div className="bi__report__div">
-            <h1>Bem vindo(a) ao Sistema Grow BPO!</h1>
-            <p>Para acessar as funcionalidades exclusivas oferecidas às empresas, por favor, selecione uma empresa no menu suspenso acima.</p>
-            <p>Uma vez selecionada, você terá acesso ao dashboard com todas as informações da empresa.</p>
-          </div>
-        )}
       </main>
     </div>
   );

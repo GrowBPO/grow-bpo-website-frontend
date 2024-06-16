@@ -24,5 +24,3 @@ const UseRouteLogout = () => {
 }
 
 export default UseRouteLogout
-
-

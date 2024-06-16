@@ -14,9 +14,9 @@ import useAuth from "../utils/check-auth";
 
 function HomePage() {
 
-  const { currentUser, firstLogin } = useAuth();
+  const { currentUser, firtLogin } = useAuth();
 
-  if (currentUser && firstLogin !== true) {
+  if (currentUser && firtLogin !== true) {
     return (
       <div>
         <BiReport />
