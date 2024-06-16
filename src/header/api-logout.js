@@ -25,7 +25,7 @@ const useLogout = () => {
     const submitLogout = async (e) => {
         e.preventDefault();
         try{
-            await client.post("/api/auth/logout");
+            await client.post("/auth/logout");
             navigate('/login');
         } catch (error) {
             toast.error("Erro ao efetuar o logout")

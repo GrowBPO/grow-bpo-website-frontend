@@ -41,7 +41,7 @@ const useLogin = () => {
         }
         if (!currentUser || currentUser === null){
             try {
-                const response = await client.post("/api/auth/login", { username: username, password: password })
+                const response = await client.post("/auth/login", { username: username, password: password })
                 if (response.status === 200) {
                     navigate('/');
                     if (firstLogin === true) {

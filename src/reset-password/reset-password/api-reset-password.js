@@ -37,7 +37,7 @@ const useResetPassword = () => {
             return;
         }
         try {
-            const response = await client.post(`/api/auth/reset-password/${token}/`, { new_password: newPassword, confirm_password: confirmPassword })
+            const response = await client.post(`/auth/reset-password/${token}/`, { new_password: newPassword, confirm_password: confirmPassword })
             if (response.status === 200) {
                 toast.dismiss()
                 toast.success("Senha alterada com sucesso!")

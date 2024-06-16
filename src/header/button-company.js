@@ -21,9 +21,9 @@ const useCompany = () => {
     const fetchData = async () => {
 
       try {
-        const res = await client.get("/api/auth/user");
+        const res = await client.get("/auth/user");
         const id_user = res.data.user.id;
-        const response = await client.get(`/api/bi/user-company/${id_user}`);
+        const response = await client.get(`/bi/user-company/${id_user}`);
 
         if (response.data && response.data.user_companies) {
           const names = response.data.user_companies
@@ -35,7 +35,7 @@ const useCompany = () => {
           setUserCompanies(data);
         }
       } catch (error) {
-        const res = await client.get("api/auth/user/check")
+        const res = await client.get("/auth/user/check")
         if(res === "true"){
           toast.error("Ocorreu um erro ao obter os dados das empresas. Tente novamente!");
         }

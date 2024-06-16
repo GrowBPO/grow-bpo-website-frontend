@@ -34,7 +34,7 @@ const useRedefineLogin = () => {
         };
         toast.info("Enviando email...");
         try {
-            const response = await client.post("/api/auth/redefine-password/", { email: email })
+            const response = await client.post("/auth/redefine-password/", { email: email })
             if (response.status === 200) {
                 toast.dismiss()
                 toast.success("Email enviado com sucesso! Verifique sua caixa de SPAM.")
