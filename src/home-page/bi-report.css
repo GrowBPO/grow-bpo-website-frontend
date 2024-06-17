@@ -24,16 +24,16 @@
 
 
 .bi__report__div{
-    padding-top: 25rem;
+    padding-top: 5rem;
 }
 
 .bi__report__div h1{
-    font-size: 4rem;
-    padding-bottom: 10rem;
+    font-size: 2.5rem;
+    padding-bottom: 2rem;
 }
 
 .bi__report__div p{
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     width: 80%;
 }
 
@@ -47,10 +47,10 @@
     border: 0.15rem solid var(--branco);
     border-radius: 0.25rem;
     font-family: "Metrophobic", sans-serif;
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: var(--branco);
     cursor: pointer;
-    width: 20%;
+    width: 30%;
     padding: 1rem;
     
 }

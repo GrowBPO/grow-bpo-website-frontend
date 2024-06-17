@@ -4,10 +4,10 @@
     border-radius: 0.25rem;
     font-family: "Metrophobic", sans-serif;
     color: var(--branco);
-    font-size: 1.2rem;
-    margin: 3rem;
+    font-size: 1rem;
+    margin: 2rem;
     padding: 1rem 1.5rem;
-    width: 10%;
+    width: 15%;
     cursor: pointer;
     flex-grow: 1;
 }
