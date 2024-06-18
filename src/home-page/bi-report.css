@@ -30,6 +30,7 @@
 .bi__report__div h1{
     font-size: 2.5rem;
     padding-bottom: 2rem;
+    text-align: center;
 }
 
 .bi__report__div p{
@@ -39,7 +40,6 @@
 
 .bi_button{
     background-color: transparent;
-    width: 100%;
     text-align: center;
 }
 
@@ -50,8 +50,7 @@
     font-size: 1rem;
     color: var(--branco);
     cursor: pointer;
-    width: 30%;
-    padding: 1rem;
+    padding: 1rem 2rem;
     
 }
 
