@@ -5,9 +5,8 @@
 }
 
 .bi__report{
-    aspect-ratio: 16 / 9;
     margin: 3rem;
-    width: 80%;
+    width: 90%;
     overflow: hidden;
     max-height: 85vh;
     border: 1rem solid var(--branco);

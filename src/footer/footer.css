@@ -1,11 +1,11 @@
 footer {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    margin: 2rem 1rem 0 0;
+    margin: 2rem 0.5rem 0 0.5rem;
     position: relative;
     bottom: 0;
-    width: 100%;
 }
 
 footer .div-links{
@@ -13,8 +13,9 @@ footer .div-links{
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    padding: 0.5rem;
-    border: 1px solid var(--branco);
+    padding: 0.5rem 0;
+    border-top: 1px solid var(--branco);
+    border-bottom: 1px solid var(--branco);
 }
 
 footer .div-img{
@@ -39,7 +40,7 @@ footer a {
     text-decoration: none;
     color: var(--branco);
     position: relative;
-    font-size: 0.5rem;
+    font-size: 0.8rem;
 }
 
 footer a:hover {
@@ -51,7 +52,7 @@ footer p {
     text-decoration: none;
     color: var(--branco);
     padding: 0.2rem;
-    font-size: 0.5rem;
+    font-size: 0.8rem;
 }
 
 footer img {
